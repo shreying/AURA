@@ -1,0 +1,117 @@
+/* Feed section wrapper */
+.page-center.results-bg {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem;
+  background: transparent; /* let global gradient show */
+}
+
+/* Results container */
+.results-container {
+  max-width: 600px;
+  margin: 3rem auto;
+  border-radius: 2rem;
+  box-shadow: 0 8px 48px #3A29FF22;
+  padding: 2.5rem 2vw;
+  backdrop-filter: blur(8px);
+  background: transparent; /* remove the white! */
+  position: relative;
+}
+
+/* Card style */
+.wrapped-card {
+  padding: 2.5rem 2rem;
+  border-radius: 1.5rem;
+  background: rgba(0, 0, 0, 0.4); /* dark glass so gradient is visible */
+  backdrop-filter: blur(12px);
+  box-shadow: 0 4px 32px #0002;
+  text-align: center;
+  color: #fff; /* default text color */
+}
+
+/* Headings */
+.wrapped-card h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 0.75rem;
+  color: #3A29FF; /* violet accent */
+}
+
+.wrapped-card h3.logo-small {
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #F13AB1; /* pink accent */
+  margin-bottom: 12px;
+  font-size: 1.2rem;
+}
+
+/* Persona details */
+.persona-details {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.persona-details span {
+  font-size: 1.1rem;
+  color: #eee;
+}
+
+.persona-details strong {
+  font-weight: bold;
+}
+
+.persona-details strong:first-of-type {
+  color: #FD913C; /* orange */
+}
+
+.persona-details strong:last-of-type {
+  color: #3A29FF; /* blue */
+}
+
+/* Paragraph */
+.wrapped-card p {
+  font-size: 1.1rem;
+  color: #f5f5f5;
+  margin-bottom: 24px;
+}
+
+/* Buttons row */
+.button-row {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+/* Buttons */
+.cta-button {
+  padding: 0.75rem 1.25rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.cta-button:first-of-type {
+  background: #FD913C;
+  color: #fff;
+}
+
+.cta-button:first-of-type:hover {
+  background: #e57f28;
+}
+
+.cta-button:last-of-type {
+  background: #3A29FF;
+  color: #fff;
+}
+
+.cta-button:last-of-type:hover {
+  background: #2a1ecc;
+}

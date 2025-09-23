@@ -1,0 +1,20 @@
+{
+    "label_map": {
+        "primavera": 0,
+        "estate": 1,
+        "autunno": 2,
+        "inverno": 3
+    },
+    "idx_to_label": {
+        "0": "primavera",
+        "1": "estate",
+        "2": "autunno",
+        "3": "inverno"
+    },
+    "idx_to_friendly": {
+        "0": "Spring",
+        "1": "Summer",
+        "2": "Autumn",
+        "3": "Winter"
+    }
+}
